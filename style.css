@@ -59,7 +59,7 @@ div.leaflet-popup {
 #proj-select {
     font-family: 'Roboto', sans-serif;
     position: absolute;
-	left: 13%;
+	left: 0.5%;
     top: 12px;
     margin-left: -165px;
     z-index: 1000;
