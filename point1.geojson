@@ -1,0 +1,470 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.42320360174496,
+          33.8551068599855
+        ]
+      },
+      "properties": {
+        "A": "GPS1",
+        "B": 590215.57,
+        "C": 362261.19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.4578451770732,
+          33.8457991498863
+        ]
+      },
+      "properties": {
+        "A": "GPS2",
+        "B": 587020.31,
+        "C": 361199.69
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.43333837878633,
+          33.823225525528
+        ]
+      },
+      "properties": {
+        "A": "GPS3",
+        "B": 589310.78,
+        "C": 358717.47
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.42845140586145,
+          33.7975044402951
+        ]
+      },
+      "properties": {
+        "A": "GPS4",
+        "B": 589789.59,
+        "C": 355869.79
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.45289042264591,
+          33.7861793037288
+        ]
+      },
+      "properties": {
+        "A": "GPS5",
+        "B": 587538.75,
+        "C": 354593.24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.4124457157059,
+          33.7639851588209
+        ]
+      },
+      "properties": {
+        "A": "GPS6",
+        "B": 591306.38,
+        "C": 352167.22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.35015626979166,
+          33.793445913491
+        ]
+      },
+      "properties": {
+        "A": "GPS7",
+        "B": 597041.78,
+        "C": 355489.98
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.328080374144,
+          33.8044394479646
+        ]
+      },
+      "properties": {
+        "A": "GPS8",
+        "B": 599072.82,
+        "C": 356729.66
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.31931107369336,
+          33.8494579125013
+        ]
+      },
+      "properties": {
+        "A": "GPS9",
+        "B": 599832.85,
+        "C": 361729.55
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.3736638594469,
+          33.8660170739934
+        ]
+      },
+      "properties": {
+        "A": "GPS10",
+        "B": 594786.55,
+        "C": 363514.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.41403487707981,
+          33.8846759980197
+        ]
+      },
+      "properties": {
+        "A": "GPS11",
+        "B": 591032.82,
+        "C": 365547.76
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.38268830184953,
+          33.8971730310345
+        ]
+      },
+      "properties": {
+        "A": "GPS12",
+        "B": 593918.16,
+        "C": 366961.27
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.32066865062333,
+          33.8969862716571
+        ]
+      },
+      "properties": {
+        "A": "GPS13",
+        "B": 599652.83,
+        "C": 366998.22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.34494578368931,
+          33.8823366978028
+        ]
+      },
+      "properties": {
+        "A": "GPS14",
+        "B": 597424.45,
+        "C": 365350.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.28907558008656,
+          33.8518860544439
+        ]
+      },
+      "properties": {
+        "A": "GPS15",
+        "B": 602627.24,
+        "C": 362028.24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.26753634744865,
+          33.8982519422212
+        ]
+      },
+      "properties": {
+        "A": "GPS16",
+        "B": 604563.95,
+        "C": 367190.54
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.21284124535721,
+          33.8969207005375
+        ]
+      },
+      "properties": {
+        "A": "GPS17",
+        "B": 609622.79,
+        "C": 367099.15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.21608987142006,
+          33.8656215923683
+        ]
+      },
+      "properties": {
+        "A": "GPS18",
+        "B": 609361.75,
+        "C": 363625.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.20332778971006,
+          33.8466071613513
+        ]
+      },
+      "properties": {
+        "A": "GPS19",
+        "B": 610566.4,
+        "C": 361530.62
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.23431070199992,
+          33.8375804392909
+        ]
+      },
+      "properties": {
+        "A": "GPS20",
+        "B": 607711.23,
+        "C": 360497.29
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.27871342151085,
+          33.8052194360533
+        ]
+      },
+      "properties": {
+        "A": "GPS21",
+        "B": 603641.41,
+        "C": 356864.21
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.19797179750325,
+          33.8107527415421
+        ]
+      },
+      "properties": {
+        "A": "GPS22",
+        "B": 611107.73,
+        "C": 357560.97
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.17226542122901,
+          33.8245457268943
+        ]
+      },
+      "properties": {
+        "A": "GPS23",
+        "B": 613468.92,
+        "C": 359117.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.28926016390139,
+          33.7524289771612
+        ]
+      },
+      "properties": {
+        "A": "GPS24",
+        "B": 602727.54,
+        "C": 351000.58
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.25152256448344,
+          33.7679047622943
+        ]
+      },
+      "properties": {
+        "A": "GPS25",
+        "B": 606203.7,
+        "C": 352754.25
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.36758768074979,
+          33.7384997206161
+        ]
+      },
+      "properties": {
+        "A": "GPS26",
+        "B": 595488.48,
+        "C": 349381.69
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.31595397567596,
+          33.7271922830269
+        ]
+      },
+      "properties": {
+        "A": "GPS27",
+        "B": 600284.32,
+        "C": 348176.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.25173978232509,
+          33.7255983074695
+        ]
+      },
+      "properties": {
+        "A": "GPS28",
+        "B": 606235.2,
+        "C": 348063.45
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.22816659182892,
+          33.7156438515086
+        ]
+      },
+      "properties": {
+        "A": "GPS29",
+        "B": 608431.47,
+        "C": 346984.03
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.26056262439439,
+          33.658787677046
+        ]
+      },
+      "properties": {
+        "A": "GPS31",
+        "B": 605498.69,
+        "C": 340647.03
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.26405613830608,
+          33.5861200561456
+        ]
+      },
+      "properties": {
+        "A": "GPS32",
+        "B": 605262.55,
+        "C": 332586.78
+      }
+    }
+  ]
+}

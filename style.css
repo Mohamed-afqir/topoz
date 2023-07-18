@@ -1,0 +1,428 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    border-radius: 0 !important;
+}
+
+button span {
+    max-width: 0;
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+button:hover span {
+    max-width: 100%;
+}
+
+.modal-content {
+    -webkit-box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.29);
+    -moz-box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.29);
+    box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.29);
+}
+
+img.leaflet-marker-icon {
+    margin-left: -9px !important;
+    margin-top: -28px !important;
+    width: 15px !important;
+    height: 15px !important;
+    content: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Blue_triangle.svg/1200px-Blue_triangle.svg.png) !important;
+}
+
+
+
+div.leaflet-popup {
+    margin-bottom: 12px !important;
+	color: #0000;
+}
+
+.leaflet-container .leaflet-control-mouseposition {
+    font: 14px/1.5 Helvetica, sans-serif;
+}
+
+.leaflet-control-zoom {
+	margin-top: 150px !important;
+    background-color: #F0FFFF;
+ }
+.leaflet-control-locate {
+   
+	background-color: #F0FFFF;
+	left:10%;
+}
+
+#proj-select {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+	left: 13%;
+    top: 12px;
+    margin-left: -165px;
+    z-index: 1000;
+    width: 160px;
+    font-weight: bold;
+	height: 50px;
+	background-color:#F0FFFF;
+}
+
+#satModal .selected-zone {
+    margin: 10px;
+    color: #00fbff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#goto-btn {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    left: 0.5%;
+	height: 50px;
+    top: 70px;
+    width: 162px;
+    margin-left: 5px;
+    z-index: 1000;
+    font-weight: bold;
+    background-color: white;
+    color: #495057;
+	background-color:#F0FFFF;
+}
+
+.login-btn-container,
+.account-btn-container {
+    z-index: 1000;
+    position: absolute;
+    bottom: 22px;
+    left: 50%;
+}
+
+
+}
+
+.embedded-login-btn {
+    background: url(https://www.shein.com/she_dist/images/google-icon-f9951633cf.png);
+    margin-top: 10px;
+    background-size: 25px 25px;
+    background-position: 5px center;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    background-color: white;
+    border-color: #a8a5a5;
+    color: #0364cb;
+    font-weight: bold;
+}
+
+.account-btn {
+    display: none;
+    padding-left: 30px;
+    z-index: 1000;
+    position: relative;
+    left: -50%;
+    background-color: white;
+    border-color: #a8a5a5;
+    color: #0364cb;
+    font-weight: bold;
+}
+
+.account-btn-image {
+    position: absolute;
+    top: 0;
+    left: -15px;
+    height: 100%;
+    width: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px darkgray;
+}
+
+.tab-content {
+    margin-bottom: 10px;
+}
+
+#mark-position-btn-container {
+    position: absolute;
+    left: 50%;
+    bottom: 25%;
+    z-index: 1000;
+    display: none;
+}
+
+#mark-position-btn-container a {
+    position: relative;
+    left: -50%;
+    border-color: white;
+}
+
+#wa-btn-container {
+    position: absolute;
+    z-index: 1000;
+    font-family: Roboto, sans-serif;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 10px;
+}
+
+#wa-btn-container button {
+    position: relative;
+}
+
+
+
+
+#import-export-btn {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    bottom: 10px;
+    width: 50px;
+	height: 50px;
+    margin-left: 10px;
+    z-index: 1000;
+    font-weight: bold;
+	background-color:#F0FFFF;
+    color: #495057;
+	
+}
+
+.pro {
+    padding-right: 58px;
+    background-image: url(pro.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: right;
+}
+
+.pro-inverted {
+    padding-right: 58px;
+    background-image: url(pro-inverted.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: right;
+}
+
+#import-geojson-btn,
+#import-dxf-btn,
+#import-shp-btn,
+#import-kml-btn {
+    appearance: button;
+    -moz-appearance: button;
+    -webkit-appearance: button;
+    display: block;
+    width: 280px;
+    margin: 5px auto 0;
+    z-index: 1000;
+    font-weight: bold;
+    background-color: white;
+    color: #495057;
+}
+
+
+#map {
+    background-color: #263a6f;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    -moz-box-shadow: inset 0 0 50px #000000;
+    -webkit-box-shadow: inset 0 0 50px #000000;
+    box-shadow: inset 0 0 50px #000000;
+}
+
+.leaflet-container .leaflet-control-mouseposition {
+    background-color: white;
+    font-weight: bold;
+}
+
+#mark-position-btn {
+    -webkit-animation: flickerAnimation 1s infinite;
+    -moz-animation: flickerAnimation 1s infinite;
+    -o-animation: flickerAnimation 1s infinite;
+    animation: flickerAnimation 1s infinite;
+}
+
+a.nav-item.nav-link.active {
+    font-weight: bold;
+}
+
+.leaflet-control-layers-overlays * {
+    margin: 0px;
+}
+
+h6 {
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+}
+
+@keyframes flickerAnimation {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes flickerAnimation {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes flickerAnimation {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes flickerAnimation {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.animate-flicker {
+    -webkit-animation: flickerAnimation 1s infinite;
+    -moz-animation: flickerAnimation 1s infinite;
+    -o-animation: flickerAnimation 1s infinite;
+    animation: flickerAnimation 1s infinite;
+}
+
+#directions-btn {
+    display: block;
+    margin: 10px auto 0;
+    padding-left: 35px;
+    background-image: url(directions.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+}
+
+#curves-btn {
+    background-size: auto 18px;
+    padding-right: 50px;
+    display: block;
+    margin: 10px auto 0;
+}
+
+.text-marker,
+.leaflet-control-attribution,
+.mapquest-logo {
+    display: none !important;
+}
+
+.leaflet-bar {
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.65);
+    border-radius: 4px;
+}
+
+.leaflet-bar a,
+.leaflet-bar a:hover {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.leaflet-bar a,
+.leaflet-control-layers-toggle {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.leaflet-bar a:hover {
+    background-color: #f4f4f4;
+}
+
+.leaflet-bar a:first-child {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.leaflet-bar a:last-child {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom: none;
+}
+
+.leaflet-bar a.leaflet-disabled {
+    cursor: default;
+    background-color: #f4f4f4;
+    color: #bbb;
+}
+
+.leaflet-bar a {
+    width: 3F0px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.leaflet-bar a:first-child {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.leaflet-bar a:last-child {
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+body::after {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    z-index: -1;
+    content: url(directions.png) url(curves.png) url(pro.png) url(pro-inverted.png) url(ife.png);
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
